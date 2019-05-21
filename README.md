@@ -4,7 +4,7 @@ KnoxPatcher is a program that allows Samsung 'secure' apps (so far only Secure F
 ## Instructions
 You will need a GNU/Linux machine to use KnoxPatcher, although I am working on a flashable zip.
 - Deodex your services.jar and place it in the `source` directory.
-- Run `./patch` to patch it.
+- Run `./patch.sh` to patch it.
 - Reboot into TWRP, mount /system, and copy services.jar into /system/framework.
 - Edit /system/build.prop and remove / comment out `ro.config.iccc_version`.
 - Reboot.
